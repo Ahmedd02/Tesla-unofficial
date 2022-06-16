@@ -1,0 +1,214 @@
+.banner {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(Yahya4.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.navbar{
+   list-style: none;
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    height: 120px;
+}
+.navbar ul li{ 
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    color: white;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase; 
+    font-size: 20px;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #b8860b;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: 1s;
+}
+.navbar ul li:hover:after{
+    width: 100%;}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+
+}
+
+h1{
+color: #fff;
+font-size:  100px;
+
+}
+
+p{
+color: #000;
+font-size: 11px;
+line-height: 15px;
+
+}
+
+button{
+width: 180px;
+color: #000;
+font-size: 12px;    
+padding:  12px 0;
+background: #fff;
+border: 0;
+border-radius: 20px;
+outline: none;
+margin-top: 30px;
+
+
+}
+.card{
+width: 200px;
+height: 230px;
+display: inline-block;
+border-radius: 10px;
+padding: 15px 25px;
+box-sizing: border-box;
+cursor: pointer;
+margin: 10px 15px;
+background-image: url(Yahya4.jpg);
+background-position: center;
+background-size: cover;
+}
+
+.card1{
+    background-image: url(Yahya1.jpg);
+}
+.card2{
+    background-image: url(Yahya2.jpg);
+}
+.card3{
+    background-image: url(Yahya3.jpg);
+}
+
+.card:hover{
+transform: translateY(-10px);
+
+}
+
+h5{
+color: #2F0000;
+text-shadow: 0 0 5px #990;
+
+}
+.card p{
+text-shadow: 0 0 15px #2F0000;
+font-size:8px ;
+
+}
+.footer{
+    background-color: #000;
+    padding: 70px 0;
+}
+.container1{
+    max-width: 1170px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 45px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-family: serif;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #b8860b;
+    height: 2px;
+    box-sizing: border-box;
+    width: 80px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #b8860b;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.5s ease; 
+}
+.footer-col .social-links a:hover{
+    color: #fff;
+    background-color: #b8860b;
+}
+th{
+  padding: 20px;
+    
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+.button{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
