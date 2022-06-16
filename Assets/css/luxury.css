@@ -1,7 +1,7 @@
 .banner{
     min-height: 100vh;
     width: 100%;
-    background-image: url(kenzy2.jpeg);
+    background-image: url(./image/kenzy2.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -68,13 +68,13 @@
 
 }
 .model-1{
-    background-image:url(popo.webp) ;
+    background-image:url(./image/popo.webp) ;
 }
 .model-2{
-    background-image: url(popi.jfif);
+    background-image: url(./image/popi.jfif);
 }
 .model-3{
-    background-image: url(hamo.jfif);
+    background-image: url(./image/hamo.jfif);
 }
 
 .card h2 {
